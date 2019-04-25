@@ -1,4 +1,4 @@
-# Test
+# Test ReactNative
 
 Se necesita crear una aplicación que permita buscar y listar imágenes y ver el detalles de estas, utilizando la API de [Imgur](http://imgur.com/).
 

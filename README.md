@@ -32,6 +32,7 @@ Tiene que cumplir con las siguientes requerimientos:
 
 ## Notas
 
+* Para la entrega del test, se debe hacer un Fork de este repositorio y enviar un Pull-Request con el resultado. Una vez que esté listo, se debe notificar por correo (recursoshumanos@techk.cl) indicando que el resultado está disponible
 * La aplicación debe ser "Responsive/Auto Layout" para soportar su visualización en *smartphones* y *tablets* (master/detail)
 * Funcionalidades extra suman puntos
 * La aplicación debe incluir un archivo README.md explicando cómo instalar las dependencias del proyecto y todos los supuestos que fueron considerados

@@ -1,9 +1,9 @@
 {
   "devToolsPort": 19002,
   "expoServerPort": 19000,
-  "packagerPort": 19001,
-  "packagerPid": 4987,
-  "expoServerNgrokUrl": "https://zt-vui.anonymous.react-native-challenge.exp.direct",
-  "packagerNgrokUrl": "https://packager.zt-vui.anonymous.react-native-challenge.exp.direct",
-  "ngrokPid": 5013
+  "packagerPort": null,
+  "packagerPid": null,
+  "expoServerNgrokUrl": null,
+  "packagerNgrokUrl": null,
+  "ngrokPid": null
 }

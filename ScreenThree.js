@@ -2,21 +2,16 @@ import React from 'react';
 import {
         FlatList,
         ScrollView,
-        SafeAreaView,
-        ImageBackground,
         StyleSheet,
         ActivityIndicator,
         Text,
-        Alert,
         View } from 'react-native';
 
 import {
         SearchBar,
         List,
         ListItem,
-        Header,
         Divider,
-        Avatar,
         Image,
         Button } from 'react-native-elements';
 
@@ -95,7 +90,7 @@ class ScreenThree extends React.Component {
       subtitle = {<Text style={{top:10, fontSize: 15}}>{item.comment}</Text>}
     />
   )
-
+  //Functions of control ViewMoreText
   renderViewMore(onPress){
      return(
        <Button type="clear" title='View more' onPress={onPress} style={{color: '#006bff', top:16, left:5}}/>
@@ -189,9 +184,8 @@ class ScreenThree extends React.Component {
 const styles = StyleSheet.create({
   container: {
       top: 20
-  },
+  }
 
 });
-
 
 export default ScreenThree;

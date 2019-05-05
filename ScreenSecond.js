@@ -78,7 +78,7 @@ class SecondScreen extends React.Component {
     });
 
   }
-
+  
   keyExtractor = (item, index) => index.toString()
 
   renderItem = ({ item }) => (

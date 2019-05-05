@@ -18,7 +18,7 @@ Teniendo la solución de react-native-challenge en nuestra posesión, se debe pr
 
   ## interface Expo
 
-  ![photo_1.png](/react-native-challenge/images_readme)
+  ![photo_1.png](https://github.com/Blmendoza94/react-native-challenge/blob/master/images_readme/photo_1.png)
 
  5) Ahora tenemos a Expo ejecutándose en nuestra computadora, con esto ya podemos empezar a utilizar nuestra aplicación React Native, para esto debemos poseer algún emulador de dispositivos móviles, ya sea android o iOS, en caso de no tener ninguno , más adelante se explicará cómo probar el proyecto en un dispositivo real.
 
@@ -34,7 +34,7 @@ Teniendo la solución de react-native-challenge en nuestra posesión, se debe pr
 
  ## Pantalla iOS
 
- ![screen_init_ios.png](/react-native-challenge/screen_init_ios)
+ ![screen_init_ios.png](https://github.com/Blmendoza94/react-native-challenge/blob/master/images_readme/screen_init_ios.png)
 
  11) Por otro lado y dando paso a la explicación de la ejecución en un dispositivo real, debiéramos proceder mediante los siguientes paso:
 

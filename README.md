@@ -19,17 +19,14 @@ a) npm start
 ## interface Expo
 
 ![photo_1.png](https://github.com/Blmendoza94/react-native-challenge/blob/master/images_readme/photo_1.png)
->>>>>>> Se agregarón mas elementos al readme además de comentarios
+
 
 5) Ahora tenemos a Expo ejecutándose en nuestra computadora, con esto ya podemos empezar a utilizar nuestra aplicación React Native, para esto debemos poseer algún emulador de dispositivos móviles, ya sea android o iOS, en caso de no tener ninguno , más adelante se explicará cómo probar el proyecto en un dispositivo real.
 
 6) Tomando en cuenta que se posee un emulador, procedemos a ejecutar react-native-challenge una vez tengamos encendido nuestro dispositivo virtual, si no lo hemos hecho antes, este es el momento de realizar esta acción.
 
-<<<<<<< HEAD
- 7) Con nuestro emulador ya funcionando debemos ir a la interfaz del servidor Expo, estando ahí veremos una opción que dice "PRODUCTION MODE", esta viene acompañada con un botón a su costado derecho, este debe estar encendido y de color morado, si no esta de esta forma, procedemos a dejarlo en este estado.
-=======
 7) Con nuestro emulador ya funcionando debemos ir a la interfaz del servidor Expo, estando ahí veremos una opción que dice "PRODUCTION MODE", esta viene acompañada con un botón a su costado derecho, este debe estar encendido y de color morado, si no esta de esta forma, procedemos a dejarlo en este estado.
->>>>>>> Se agregarón mas elementos al readme además de comentarios
+
 
 8) Con el botón "PRODUCTION MODE" encendido, debemos ir a los botones que están más abajo, en este caso son tres, el primero es la opción de ejecutar el proyecto mediante "Tunnel", la segunda es "LAN", y la tercera "LOCAL", en nuestro caso dejaremos este botón en la opción "Tunnel", esto debido a que es la que ofrece el mejor rendimiento para la ejecución de nuestra aplicación. En caso de no obtener un buen rendimiento con esta opción, podemos ir probando con las dos siguientes o en un último recurso realizar la ejecución en un dispositivo real.
 
@@ -40,7 +37,7 @@ a) npm start
 ## Pantalla iOS
 
 ![screen_init_ios.png](https://github.com/Blmendoza94/react-native-challenge/blob/master/images_readme/screen_init_ios.png)
->>>>>>> Se agregarón mas elementos al readme además de comentarios
+
 
 11) Por otro lado y dando paso a la explicación de la ejecución en un dispositivo real, debiéramos proceder mediante los siguientes paso:
 

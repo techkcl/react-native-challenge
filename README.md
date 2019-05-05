@@ -24,7 +24,7 @@ Teniendo la solución de react-native-challenge en nuestra posesión, se debe pr
 
  6) Tomando en cuenta que se posee un emulador, procedemos a ejecutar react-native-challenge una vez tengamos encendido nuestro dispositivo virtual, si no lo hemos hecho antes, este es el momento de realizar esta acción.
 
- 7) Con nuestro emulador ya funcionando debemos ir a la interfaz del servidor Expo, estando ahí veremos una opción que dice "PRODUCTION MODE", esta viene acompaña con un botón a su costado derecho, este debe estar encendido y de color morado, si no esta de esta forma, procedemos a dejarlo en este estado.
+ 7) Con nuestro emulador ya funcionando debemos ir a la interfaz del servidor Expo, estando ahí veremos una opción que dice "PRODUCTION MODE", esta viene acompañada con un botón a su costado derecho, este debe estar encendido y de color morado, si no esta de esta forma, procedemos a dejarlo en este estado.
 
  8) Con el botón "PRODUCTION MODE" encendido, debemos ir a los botones que están más abajo, en este caso son tres, el primero es la opción de ejecutar el proyecto mediante "Tunnel", la segunda es "LAN", y la tercera "LOCAL", en nuestro caso dejaremos este botón en la opción "Tunnel", esto debido a que es la que ofrece el mejor rendimiento para la ejecución de nuestra aplicación. En caso de no obtener un buen rendimiento con esta opción, podemos ir probando con las dos siguientes o en un último recurso realizar la ejecución en un dispositivo real.
 

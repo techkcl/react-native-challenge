@@ -18,9 +18,6 @@ a) npm start
 
 ## interface Expo
 
-<<<<<<< HEAD
-  ![photo_1.png](https://github.com/Blmendoza94/react-native-challenge/blob/master/images_readme/photo_1.png)
-=======
 ![photo_1.png](https://github.com/Blmendoza94/react-native-challenge/blob/master/images_readme/photo_1.png)
 >>>>>>> Se agregarón mas elementos al readme además de comentarios
 
@@ -42,9 +39,6 @@ a) npm start
 
 ## Pantalla iOS
 
-<<<<<<< HEAD
- ![screen_init_ios.png](https://github.com/Blmendoza94/react-native-challenge/blob/master/images_readme/screen_init_ios.png)
-=======
 ![screen_init_ios.png](https://github.com/Blmendoza94/react-native-challenge/blob/master/images_readme/screen_init_ios.png)
 >>>>>>> Se agregarón mas elementos al readme además de comentarios
 
@@ -69,7 +63,11 @@ CONSEJO: Si estamos desde un Mac, es una buena alternativa usar los emuladores d
   ![SE.png](https://github.com/Blmendoza94/react-native-challenge/blob/master/images_readme/SE.png)
 
 
+
+
   ![nexus.png](https://github.com/Blmendoza94/react-native-challenge/blob/master/images_readme/nexus.png)
+
+
 
 
   ![XS.png](https://github.com/Blmendoza94/react-native-challenge/blob/master/images_readme/XS.png)

@@ -16,10 +16,13 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* reactNativeChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* reactNativeChallengeTests.m */; };
+		615C12F4057542C78A67205A /* AirbnbCerealApp-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3E1D5AD8F834DC28E275986 /* AirbnbCerealApp-Bold.ttf */; };
 		888BF4E05DB291F3112CE297 /* libPods-reactNativeChallenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DDDCEB7F083FD8328817D22 /* libPods-reactNativeChallenge.a */; };
 		AE82DC56C1B945916A85DF78 /* libPods-reactNativeChallenge-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA0449C45860622777AF6D2 /* libPods-reactNativeChallenge-tvOS.a */; };
+		C3A3CFE10BB44157A5C89836 /* Larsseit.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66FBDEB02EE2468AA556C9C4 /* Larsseit.ttf */; };
 		C8F4C46BAFF3746E82520D8B /* libPods-reactNativeChallenge-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8C5DC76167C926CD467023 /* libPods-reactNativeChallenge-tvOSTests.a */; };
 		D30DD101D33A44CE4B58BBEB /* libPods-reactNativeChallengeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7918FAB9A64839FF195568 /* libPods-reactNativeChallengeTests.a */; };
+		FA569740237763C300CE6D91 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA56973F237763C300CE6D91 /* Ionicons.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,8 +60,10 @@
 		4F1C29B8885299CC364482FB /* Pods-reactNativeChallenge-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactNativeChallenge-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-reactNativeChallenge-tvOSTests/Pods-reactNativeChallenge-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		56C9048161A09179B9938484 /* Pods-reactNativeChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactNativeChallenge.release.xcconfig"; path = "Target Support Files/Pods-reactNativeChallenge/Pods-reactNativeChallenge.release.xcconfig"; sourceTree = "<group>"; };
 		652AA816D8B8435A36CD0774 /* Pods-reactNativeChallenge-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactNativeChallenge-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-reactNativeChallenge-tvOSTests/Pods-reactNativeChallenge-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		66FBDEB02EE2468AA556C9C4 /* Larsseit.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Larsseit.ttf; path = ../src/assets/fonts/Larsseit.ttf; sourceTree = "<group>"; };
 		7DDDCEB7F083FD8328817D22 /* libPods-reactNativeChallenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactNativeChallenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0C8F06A3038CE24DD24F46C /* Pods-reactNativeChallenge-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactNativeChallenge-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-reactNativeChallenge-tvOS/Pods-reactNativeChallenge-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A3E1D5AD8F834DC28E275986 /* AirbnbCerealApp-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AirbnbCerealApp-Bold.ttf"; path = "../src/assets/fonts/AirbnbCerealApp-Bold.ttf"; sourceTree = "<group>"; };
 		ABA0449C45860622777AF6D2 /* libPods-reactNativeChallenge-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactNativeChallenge-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB8C5DC76167C926CD467023 /* libPods-reactNativeChallenge-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactNativeChallenge-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC7918FAB9A64839FF195568 /* libPods-reactNativeChallengeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactNativeChallengeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,6 +72,7 @@
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		F38AC4DCECEC00429581F1D9 /* Pods-reactNativeChallenge-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactNativeChallenge-tvOS.release.xcconfig"; path = "Target Support Files/Pods-reactNativeChallenge-tvOS/Pods-reactNativeChallenge-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		FA56973F237763C300CE6D91 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +142,15 @@
 			name = reactNativeChallenge;
 			sourceTree = "<group>";
 		};
+		1A4085D40B8745B29624DFC8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A3E1D5AD8F834DC28E275986 /* AirbnbCerealApp-Bold.ttf */,
+				66FBDEB02EE2468AA556C9C4 /* Larsseit.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,7 +176,6 @@
 				CEEF8E4C7BF61C2E4420AD82 /* Pods-reactNativeChallengeTests.debug.xcconfig */,
 				2D981D5F27FA86F80C81698F /* Pods-reactNativeChallengeTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -175,12 +189,14 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				FA56973F237763C300CE6D91 /* Ionicons.ttf */,
 				13B07FAE1A68108700A75B9A /* reactNativeChallenge */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* reactNativeChallengeTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				33FF7AC61278CF60600FA969 /* Pods */,
+				1A4085D40B8745B29624DFC8 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -285,12 +301,16 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 940;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 79TQXVM7GB;
+						ProvisioningStyle = Automatic;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -308,6 +328,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -336,8 +357,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA569740237763C300CE6D91 /* Ionicons.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				615C12F4057542C78A67205A /* AirbnbCerealApp-Bold.ttf in Resources */,
+				C3A3CFE10BB44157A5C89836 /* Larsseit.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -626,8 +650,11 @@
 			baseConfigurationReference = D2C9B591E06EBB01396C22BF /* Pods-reactNativeChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = 79TQXVM7GB;
 				INFOPLIST_FILE = reactNativeChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -637,6 +664,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = reactNativeChallenge;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -646,7 +674,10 @@
 			baseConfigurationReference = 56C9048161A09179B9938484 /* Pods-reactNativeChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 79TQXVM7GB;
 				INFOPLIST_FILE = reactNativeChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -656,6 +687,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = reactNativeChallenge;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;

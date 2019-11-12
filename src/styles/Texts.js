@@ -52,6 +52,12 @@ export default StyleSheet.create({
     marginTop: 4,
     fontSize: 16,
   },
+  imageViews: {
+    fontFamily:'Larsseit',
+    color: Colors.text.dark,
+    marginLeft: 8,
+    fontSize: 16,
+  },
   commentTitle:{
     fontFamily:'AirbnbCerealApp-Bold',
     color: Colors.text.dark,

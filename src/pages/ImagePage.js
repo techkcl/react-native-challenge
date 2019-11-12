@@ -100,6 +100,14 @@ export default class ImagePage extends Component {
           <View style={{padding:20}}>
             <Text style={Texts.imagePageTitle}>{item.title}</Text>
             <Text style={Texts.galleryItemDescription}>{item.description || 'No description provided.'} </Text>
+            <View style={{flexDirection: 'row', marginTop: 8, alignItems: 'center'}}>
+              <Icon 
+                  name='md-eye' 
+                  size={24}
+                  color={Colors.text.dark}
+              />
+              <Text style={Texts.imageViews}>{item.views} views</Text>
+            </View>
             <View style={{flexDirection: 'row', marginTop: 24}}>
               <View style={{flex:1, alignItems: 'center'}}> 
                 <Icon 

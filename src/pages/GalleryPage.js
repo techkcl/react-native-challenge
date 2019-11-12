@@ -9,6 +9,7 @@ import Colors from '../styles/Colors';
 import Layouts from '../styles/Layouts';
 import Texts from '../styles/Texts';
 import GalleryItem from '../components/GalleryItem';
+import SearchBar from '../components/SearchBar';
 
 export default class GalleryPage extends Component {
 
@@ -29,6 +30,7 @@ export default class GalleryPage extends Component {
     loading: true,
     accent: '291765',
     data: [],
+    searchString: '',
   };
 
   componentDidMount = () => {
@@ -64,7 +66,11 @@ export default class GalleryPage extends Component {
         ) 
       } 
     }
-  }
+  };
+
+  filterData = () => {
+    return this.state.data.filter(element => element.title.toLowerCase().includes(this.state.searchString.toLowerCase()));
+  };
 
   renderContent = () => {
     if(this.state.loading){
@@ -76,7 +82,7 @@ export default class GalleryPage extends Component {
     }else{
       return(
         <FlatList
-          data={this.state.data}
+          data={this.filterData()}
           renderItem={({item}) => this.renderItem(item)}
           contentContainerStyle={{paddingHorizontal: 20, marginVertical:12}}
           scrollEventThrottle={16}
@@ -90,6 +96,15 @@ export default class GalleryPage extends Component {
     return (
       <View style={Layouts.container}>
         <StatusBar backgroundColor={`#${this.state.accent}`}/>
+        <SearchBar
+            onChangeText={text => this.setState({searchString: text})}
+            placeholder='Search a post'
+            style={{
+              marginTop:16,
+              marginHorizontal:20,
+              elevation:5,
+            }}
+          />
         {this.renderContent()}
       </View>
     )

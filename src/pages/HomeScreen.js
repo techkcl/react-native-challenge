@@ -103,7 +103,7 @@ export default class HomeScreen extends Component {
               size={16}
               color={Colors.text.primaryLight}
             />
-            <Text style={Texts.orderBy}>Ordenar tags por</Text>
+            <Text style={Texts.orderBy}>Sort tags by</Text>
           </View>
           <View style={Styles.filters}>
             <View style={Styles.filterContainer}>
@@ -112,21 +112,21 @@ export default class HomeScreen extends Component {
                 activeOpacity={0.8}
                 style={this.state.sortBy === 0 ? Styles.selectedFilterItem : Styles.unselectedFilterItem}
               >
-                <Text style={Texts.selectedFilter}>Nombre</Text>
+                <Text style={Texts.selectedFilter}>Name</Text>
               </TouchableOpacity>
               <TouchableOpacity 
                 onPress = {() => this.setState({sortBy: this.state.sortBy === 2 ? 1 : 2})}
                 activeOpacity={0.5}
                 style={this.state.sortBy === 1 || this.state.sortBy === 2 ? Styles.selectedFilterItem : Styles.unselectedFilterItem}
               >
-                <Text style={Texts.unselectedFilter}>Seguidores</Text>
+                <Text style={Texts.unselectedFilter}>Followers</Text>
               </TouchableOpacity>
             </View>
           </View>
         </View>
         <SearchBar
             onChangeText={text => this.searchTag(text)}
-            placeholder='Busca algún tag'
+            placeholder='Search a tag'
             style={{
               marginTop: -28,
               marginHorizontal:20,

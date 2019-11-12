@@ -23,7 +23,7 @@ const TagItem = ({accent, name, followers, onPress}) => (
             size={16}
             color={Colors.text.placeholder}
           />
-          <Text style={styles.followers}>{followers} seguidores</Text>
+          <Text style={styles.followers}>{followers} followers</Text>
         </View>
       </View>
     </TouchableOpacity>

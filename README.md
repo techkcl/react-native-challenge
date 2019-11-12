@@ -1,39 +1,36 @@
-# Test
+# Imgur-K
 
-Se necesita crear una aplicación que permita buscar y listar imágenes y ver el detalles de estas, utilizando la API de [Imgur](http://imgur.com/).
+Cliente de Imgur desarrollado en React Native como modo de prueba técnica para Tech-K.
 
-## Pantalla Principal
+![pantalla_principal.png](https://i.imgur.com/bY2FMC1.png)
 
-![pantalla_principal.png](https://bitbucket.org/repo/Mrndnqd/images/2449792269-pantalla_principal.png)
+## Características del proyecto
 
-Tiene que cumplir con las siguientes requerimientos:
+* Proyecto construido con la última versión de React Native.
+* Se utilizó la API de [Imgur](https://apidocs.imgur.com).
+* Para las dependencias se utilizó [Yarn](https://github.com/yarnpkg/yarn).
+* Testeado en Android (Samsung Galaxy S10e) e iOS (iPhone 6S).
 
-* Debe mostrar una lista de *Tags* que pueden ser seleccionados para mostrar la lista de imágenes que están asociados a ese tag
-* Debe permitir buscar *Tags*
+## Setup
 
-## Lista de imágenes
+1. Clonar el repositorio.
+2. Abrir el proyecto en su editor preferido (ej. VS Code).
+3. Instalar las dependencias corriendo una instancia de la terminal en la carpeta raíz del proyecto y ejecutando el siguiente comando:
 
-![lista_de_imágenes.png](https://bitbucket.org/repo/Mrndnqd/images/1175342338-lista_de_ima%CC%81genes.png)
+`$ npm install`
 
-Tiene que cumplir con los siguientes requerimientos:
+4. (Android) Definir la ruta del SDK de Android creando un nuevo archivo en la ruta './android/' llamado 'local.properties' con el siguiente contenido:
 
-* Mostrar el listado de imágenes asociadas al *Tag* seleccionado
-* Permitir buscar por _title_ *o* _description_ / _title_ *y* _description_ de la imagen
+```java
+sdk.dir = /Users/Macbook/Library/Android/sdk //ruta del SDK
+```
 
-## Pantalla de imagen
+## Supuestos
 
-![pantalla_de_imagen.png](https://bitbucket.org/repo/Mrndnqd/images/3511127867-pantalla_de_imagen.png)
-
-Tiene que cumplir con las siguientes requerimientos:
-
-* Mostrar la imagen seleccionada
-* Mostar los _upvotes_, _downvotes_ y _views_ de la imagen
-* Mostar los comentarios de la imagen seleccionada
+* Se tiene instalada la última version de NodeJS.
+* La galeria de imagenes de un tag solo obtiene y muestra imagenes de tipo .png, .jpg y .jpeg.
+* El buscador de post dentro de la galeria de imagenes de un tag debería buscar posts dentro de la lista ya cargada. No debería llamar a Imgur buscando imagenes que contengan el tag, sino que debería filtrar los datos ya obtenidos.
 
 ## Notas
 
-* Para la entrega del test, se debe hacer un Fork de este repositorio y enviar un Pull-Request con el resultado. Una vez que esté listo, se debe notificar por correo (recursoshumanos@techk.cl) indicando que el resultado está disponible
-* La aplicación debe ser "Responsive/Auto Layout" para soportar su visualización en *smartphones* y *tablets* (master/detail)
-* Funcionalidades extra suman puntos
-* La aplicación debe incluir un archivo README.md explicando cómo instalar las dependencias del proyecto y todos los supuestos que fueron considerados
-* Para desarrollar la aplicación use como referencia la documentación de [Imgur](https://apidocs.imgur.com)
+* No agregué mucha funcionalidad extra. Sin embargo, me molesté en darle un buen diseño a la app :).

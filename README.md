@@ -27,6 +27,7 @@ sdk.dir = /Users/Macbook/Library/Android/sdk //ruta del SDK
 
 ## Supuestos
 
+* Se tiene instalada la última version de NodeJS.
 * La galeria de imagenes de un tag solo muestra imagenes de tipo .png, .jpg y .jpeg.
 * El buscador de post dentro de la galeria de imagenes de un tag solo busca posts dentro de la lista ya cargada. No llama a Imgur buscando imagenes que contengan el tag, sino que filtra los datos ya obtenidos.
 
